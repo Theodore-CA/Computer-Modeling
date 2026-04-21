@@ -1,5 +1,5 @@
 # This repo contains the projects I worked on for my computer modeling class
-Each project mainly uses libil 2.6.1: https://libigl.github.io/, a C++ library for geometry processing, and is written in Python.
+Each project mainly uses libil 2.6.1: https://libigl.github.io/, a C++ library for geometry processing. Each project is written in Python.
 
 ## Project 1: Practice With libigl
 The focus of this project was to get aquainted with libigl by calling some useful functions, and doing a simple subdivision scheme.
@@ -47,4 +47,16 @@ Then Harmonic and LSCM parameterization to flatten a mesh to a 2d plane.
 ### Harmonic and LSCM parameterization:
 Harmonic: <img width="1409" height="352" alt="image" src="https://github.com/user-attachments/assets/b0848ad9-334f-4aca-a3be-11177c556888" />
 LSCM: <img width="1271" height="330" alt="image" src="https://github.com/user-attachments/assets/700c49a4-6f02-44bd-a2a5-2f5696d95d23" />
+
+## Project 5: Multiresolution Mesh Editing:
+This project focused on manipulating certain parts of a mesh while leaving others untouched. Used a minimzation of the manipulated plane to obtain best fitting locations 
+for updated verticies. Begins by storing the high frequency detail of the mesh, smooths it to allow for easier manipulation, then reapplies the detail after the manipulation.
+This is the original hand:
+<img width="580" height="555" alt="image" src="https://github.com/user-attachments/assets/0b965248-0932-4a62-a773-069fb2dec396" />
+This is the smoothed version:
+<img width="352" height="414" alt="image" src="https://github.com/user-attachments/assets/59ea611c-74e1-42b7-aa8c-a29e5ce68f94" />
+This is the smoothed + deformed:
+<img width="395" height="375" alt="image" src="https://github.com/user-attachments/assets/e2937efa-cc63-491a-8013-9a7a056e8b05" />
+This is with the reapplied detail:
+<img width="371" height="390" alt="image" src="https://github.com/user-attachments/assets/d67c91e4-23f9-4ebf-b75c-dd79f91d977d" />
 
