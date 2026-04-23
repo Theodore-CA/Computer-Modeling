@@ -49,8 +49,8 @@ Harmonic: <img width="1409" height="352" alt="image" src="https://github.com/use
 LSCM: <img width="1271" height="330" alt="image" src="https://github.com/user-attachments/assets/700c49a4-6f02-44bd-a2a5-2f5696d95d23" />
 
 ## Project 5: Multiresolution Mesh Editing:
-This project focused on manipulating certain parts of a mesh while leaving others untouched. Used a minimzation of the manipulated plane to obtain best fitting locations 
-for updated verticies. Begins by storing the high frequency detail of the mesh, smooths it to allow for easier manipulation, then reapplies the detail after the manipulation.
+This project focused on manipulating certain parts of a mesh while leaving others untouched. Used a minimzation on the manipulated thin-plate energies to obtain best fitting locations 
+for updated verticies by solving a bi-Laplacian system. Begins by storing the high frequency detail of the mesh, smooths it to allow for easier manipulation, then reapplies the detail after the manipulation.
 This is the original hand:
 <img width="580" height="555" alt="image" src="https://github.com/user-attachments/assets/0b965248-0932-4a62-a773-069fb2dec396" />
 This is the smoothed version:
