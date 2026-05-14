@@ -51,12 +51,16 @@ LSCM: <img width="1271" height="330" alt="image" src="https://github.com/user-at
 ## Project 5: Multiresolution Mesh Editing:
 This project focused on manipulating certain parts of a mesh while leaving others untouched. Used a minimzation on the manipulated thin-plate energies to obtain best fitting locations 
 for updated verticies by solving a bi-Laplacian system. Begins by storing the high frequency detail of the mesh, smooths it to allow for easier manipulation, then reapplies the detail after the manipulation.
-This is the original hand:
+
+### Original Hand: 
 <img width="580" height="555" alt="image" src="https://github.com/user-attachments/assets/0b965248-0932-4a62-a773-069fb2dec396" />
-This is the smoothed version:
+
+### Smoothed Version: 
 <img width="352" height="414" alt="image" src="https://github.com/user-attachments/assets/59ea611c-74e1-42b7-aa8c-a29e5ce68f94" />
-This is the smoothed + deformed:
+
+### Smoothed + Deformed: 
 <img width="395" height="375" alt="image" src="https://github.com/user-attachments/assets/e2937efa-cc63-491a-8013-9a7a056e8b05" />
-This is with the reapplied detail:
+
+### Reapplied Detail: 
 <img width="371" height="390" alt="image" src="https://github.com/user-attachments/assets/d67c91e4-23f9-4ebf-b75c-dd79f91d977d" />
 
